@@ -1,0 +1,113 @@
+// =====================================================================
+// OSCARS POWER BI MODEL - DAX MEASURES
+// Create a blank table "_Measures" (Enter Data -> empty) and add these.
+// =====================================================================
+
+// ---------- Core ----------
+Nominations = SUM ( Fact_Nominations[NominationCount] )
+
+Wins = SUM ( Fact_Nominations[IsWinner] )
+
+Losses = [Nominations] - [Wins]
+
+Win Rate % = DIVIDE ( [Wins], [Nominations] )
+
+// ---------- Films (via bridge; film filter flows Dim_Film -> Bridge -> Fact) ----------
+Films Nominated = DISTINCTCOUNT ( Bridge_Nomination_Film[FilmKey] )
+
+Films Won =
+CALCULATE (
+    DISTINCTCOUNT ( Bridge_Nomination_Film[FilmKey] ),
+    Fact_Nominations[IsWinner] = 1
+)
+
+// ---------- People / companies ----------
+Nominees =
+CALCULATE (
+    DISTINCTCOUNT ( Bridge_Nomination_Nominee[NomineeKey] ),
+    Dim_Nominee[NomineeType] <> "Unlinked"
+)
+
+Persons Nominated =
+CALCULATE (
+    DISTINCTCOUNT ( Bridge_Nomination_Nominee[NomineeKey] ),
+    Dim_Nominee[NomineeType] = "Person"
+)
+
+// ---------- Era / time comparisons ----------
+Nominations All Time =
+CALCULATE ( [Nominations], REMOVEFILTERS ( Dim_Ceremony ) )
+
+Share of All Nominations % = DIVIDE ( [Nominations], [Nominations All Time] )
+
+Nominations Previous Ceremony =
+VAR _cur = MAX ( Dim_Ceremony[CeremonyNumber] )
+RETURN
+    CALCULATE (
+        [Nominations],
+        REMOVEFILTERS ( Dim_Ceremony ),
+        Dim_Ceremony[CeremonyNumber] = _cur - 1
+    )
+
+Nominations Change vs Prev = [Nominations] - [Nominations Previous Ceremony]
+
+Cumulative Wins =
+VAR _cur = MAX ( Dim_Ceremony[CeremonyNumber] )
+RETURN
+    CALCULATE (
+        [Wins],
+        REMOVEFILTERS ( Dim_Ceremony ),
+        Dim_Ceremony[CeremonyNumber] <= _cur
+    )
+
+Rolling 5 Ceremony Avg Nominations =
+VAR _cur = MAX ( Dim_Ceremony[CeremonyNumber] )
+RETURN
+    CALCULATE (
+        DIVIDE ( [Nominations], DISTINCTCOUNT ( Dim_Ceremony[CeremonyNumber] ) ),
+        REMOVEFILTERS ( Dim_Ceremony ),
+        Dim_Ceremony[CeremonyNumber] > _cur - 5,
+        Dim_Ceremony[CeremonyNumber] <= _cur
+    )
+
+// ---------- Rankings ----------
+Film Rank by Wins =
+RANKX ( ALLSELECTED ( Dim_Film[Title] ), [Wins], , DESC, DENSE )
+
+Nominee Rank by Wins =
+RANKX ( ALLSELECTED ( Dim_Nominee[NomineeName] ), [Wins], , DESC, DENSE )
+
+// ---------- Film-level "Oscar Haul" (use on a Film table visual) ----------
+Film Nominations (via Bridge) =
+CALCULATE (
+    SUM ( Fact_Nominations[NominationCount] ),
+    CROSSFILTER ( Bridge_Nomination_Film[NominationID], Fact_Nominations[NominationID], BOTH )
+)
+
+Film Wins (via Bridge) =
+CALCULATE (
+    SUM ( Fact_Nominations[IsWinner] ),
+    CROSSFILTER ( Bridge_Nomination_Film[NominationID], Fact_Nominations[NominationID], BOTH )
+)
+
+// ---------- Narrative / card helpers ----------
+Top Category by Nominations =
+VAR _t =
+    TOPN ( 1, ALLSELECTED ( Dim_Category[CanonicalCategory] ), [Nominations], DESC )
+RETURN
+    CONCATENATEX ( _t, Dim_Category[CanonicalCategory], ", " )
+
+Headline =
+"Showing " & FORMAT ( [Nominations], "#,0" ) & " nominations and "
+    & FORMAT ( [Wins], "#,0" ) & " wins ("
+    & FORMAT ( [Win Rate %], "0.0%" ) & " win rate)"
+
+// ---------- Data-quality cards ----------
+DQ Nominations Without Film =
+CALCULATE ( [Nominations], Fact_Nominations[FilmCount] = 0 )
+
+DQ Unlinked Nominees =
+CALCULATE (
+    DISTINCTCOUNT ( Bridge_Nomination_Nominee[NomineeKey] ),
+    Dim_Nominee[NomineeType] = "Unlinked"
+)

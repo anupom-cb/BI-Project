@@ -1,0 +1,18 @@
+Check,Result
+full_data rows,12137
+oscar_award rows,11240
+oscar_award exact duplicate rows removed,6
+oscar_award rows with blank winner flag,5
+oscar_award rows with blank film,363
+full_data rows with no film (SciTech/Special mostly),1280
+full_data nominations flagged winner,3515
+oscar_award rows flagged winner (flattened per film/name),2600
+ceremonies in full_data,98
+ceremonies in oscar_award,98
+canonical categories full_data,66
+canonical categories oscar_award,59
+Best Picture nominee titles: full_data / oscar_award,612 / 612
+Best Picture titles only in one source,0
+Best Picture winner titles match,True
+Nominee records unlinked (no IMDb id),842
+Films without IMDb id,1

@@ -1,0 +1,131 @@
+CategoryKey,CanonicalCategory,Category,Class,IsMainCategory,IsHonoraryOrTech
+9c53f494,ACTOR IN A LEADING ROLE,ACTOR,Acting,1,0
+5a96dea9,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Acting,1,0
+fb076b8b,ACTOR IN A SUPPORTING ROLE,ACTOR IN A SUPPORTING ROLE,Acting,1,0
+5dca6be6,ACTRESS IN A LEADING ROLE,ACTRESS,Acting,1,0
+448771d2,ACTRESS IN A LEADING ROLE,ACTRESS IN A LEADING ROLE,Acting,1,0
+bb3e4e0b,ACTRESS IN A SUPPORTING ROLE,ACTRESS IN A SUPPORTING ROLE,Acting,1,0
+d761c987,ASSISTANT DIRECTOR,ASSISTANT DIRECTOR,Directing,0,0
+5cf118ce,DIRECTING,DIRECTING,Directing,1,0
+79ac1329,DIRECTING (Comedy Picture),DIRECTING (Comedy Picture),Directing,0,0
+5b872e52,DIRECTING (Dramatic Picture),DIRECTING (Dramatic Picture),Directing,0,0
+5dacaa1c,DANCE DIRECTION,DANCE DIRECTION,Music,0,0
+12b1abc5,MUSIC (Original Score),MUSIC (Original Score),Music,0,0
+94e7a1c0,MUSIC (Original Score),MUSIC (Music Score of a Dramatic Picture),Music,0,0
+1256679b,MUSIC (Original Score),MUSIC (Music Score of a Dramatic or Comedy Picture),Music,0,0
+7d5f9dc9,MUSIC (Original Score),MUSIC (Music Score--substantially original),Music,0,0
+b8d49b47,MUSIC (Original Score),MUSIC (Original Music Score),Music,0,0
+189012d0,MUSIC (Original Score),MUSIC (Original Score--for a motion picture [not a musical]),Music,0,0
+3d800e1a,MUSIC (Original Score),MUSIC (Original Dramatic Score),Music,0,0
+98a76ff7,MUSIC (Original Song Score or Adaptation Score),MUSIC (Scoring),Music,0,0
+f7c3f107,MUSIC (Original Song Score or Adaptation Score),MUSIC (Scoring of a Musical Picture),Music,0,0
+c8a2671f,MUSIC (Original Song Score or Adaptation Score),MUSIC (Scoring of Music--adaptation or treatment),Music,0,0
+f8d2dfbe,MUSIC (Original Song Score or Adaptation Score),MUSIC (Score of a Musical Picture--original or adaptation),Music,0,0
+34dfb681,MUSIC (Original Song Score or Adaptation Score),MUSIC (Original Song Score),Music,0,0
+8fade243,MUSIC (Original Song Score or Adaptation Score),MUSIC (Scoring: Adaptation and Original Song Score),Music,0,0
+cdc58e67,MUSIC (Original Song Score or Adaptation Score),MUSIC (Scoring: Original Song Score and Adaptation -or- Scoring: Adaptation),Music,0,0
+329fa077,MUSIC (Original Song Score or Adaptation Score),MUSIC (Original Song Score and Its Adaptation or Adaptation Score),Music,0,0
+7a6a894d,MUSIC (Original Song Score or Adaptation Score),MUSIC (Adaptation Score),Music,0,0
+44180b36,MUSIC (Original Song Score or Adaptation Score),MUSIC (Original Song Score and Its Adaptation -or- Adaptation Score),Music,0,0
+07db1590,MUSIC (Original Song Score or Adaptation Score),MUSIC (Original Song Score or Adaptation Score),Music,0,0
+75c28637,MUSIC (Original Song Score or Adaptation Score),MUSIC (Original Musical or Comedy Score),Music,0,0
+2985e66e,MUSIC (Original Song),MUSIC (Song),Music,0,0
+13b5f316,MUSIC (Original Song),MUSIC (Song--Original for the Picture),Music,0,0
+be5371ea,MUSIC (Original Song),MUSIC (Original Song),Music,0,0
+f7c8ac57,ART DIRECTION,ART DIRECTION,Production,0,0
+90b21656,ART DIRECTION,PRODUCTION DESIGN,Production,0,0
+5f269594,ART DIRECTION (Black-and-White),ART DIRECTION (Black-and-White),Production,0,0
+09523dcd,ART DIRECTION (Color),ART DIRECTION (Color),Production,0,0
+b6bf17df,CASTING,CASTING,Production,0,0
+bd93a81e,CINEMATOGRAPHY,CINEMATOGRAPHY,Production,0,0
+f6789cb8,CINEMATOGRAPHY (Black-and-White),CINEMATOGRAPHY (Black-and-White),Production,0,0
+dd8f24f6,CINEMATOGRAPHY (Color),CINEMATOGRAPHY (Color),Production,0,0
+843d219f,COSTUME DESIGN,COSTUME DESIGN,Production,0,0
+21f22b20,COSTUME DESIGN (Black-and-White),COSTUME DESIGN (Black-and-White),Production,0,0
+33df7a47,COSTUME DESIGN (Color),COSTUME DESIGN (Color),Production,0,0
+33b0fa41,FILM EDITING,FILM EDITING,Production,0,0
+eddd1db5,MAKEUP AND HAIRSTYLING,MAKEUP,Production,0,0
+7e318472,MAKEUP AND HAIRSTYLING,MAKEUP AND HAIRSTYLING,Production,0,0
+9bc14cf6,SOUND EDITING,SOUND EFFECTS,Production,0,0
+3f4c7772,SOUND EDITING,SOUND EFFECTS EDITING,Production,0,0
+30c54803,SOUND EDITING,SOUND EDITING,Production,0,0
+64017249,SOUND MIXING,SOUND,Production,0,0
+1fd9368c,SOUND MIXING,SOUND MIXING,Production,0,0
+8722dc47,SOUND RECORDING,SOUND RECORDING,Production,0,0
+84dcc58d,VISUAL EFFECTS,ENGINEERING EFFECTS,Production,0,0
+db2616df,VISUAL EFFECTS,SPECIAL EFFECTS,Production,0,0
+300cf93c,VISUAL EFFECTS,SPECIAL VISUAL EFFECTS,Production,0,0
+b6b86cda,VISUAL EFFECTS,VISUAL EFFECTS,Production,0,0
+e2233558,SCIENTIFIC AND TECHNICAL AWARD (Academy Award of Merit),SCIENTIFIC OR TECHNICAL AWARD (Academy Award of Merit),SciTech,0,1
+11a2277c,SCIENTIFIC AND TECHNICAL AWARD (Academy Award of Merit),SCIENTIFIC AND TECHNICAL AWARD (Academy Award of Merit),SciTech,0,1
+04dcdb7b,SCIENTIFIC AND TECHNICAL AWARD (Scientific and Engineering Award),SCIENTIFIC OR TECHNICAL AWARD (Scientific and Engineering Award),SciTech,0,1
+3f395e1a,SCIENTIFIC AND TECHNICAL AWARD (Scientific and Engineering Award),SCIENTIFIC AND TECHNICAL AWARD (Scientific and Engineering Award),SciTech,0,1
+6901142b,SCIENTIFIC AND TECHNICAL AWARD (Special Award),SCIENTIFIC AND TECHNICAL AWARD (Special Award),SciTech,0,1
+c47c7a06,SCIENTIFIC AND TECHNICAL AWARD (Technical Achievement Award),SCIENTIFIC OR TECHNICAL AWARD (Technical Achievement Award),SciTech,0,1
+b567818e,SCIENTIFIC AND TECHNICAL AWARD (Technical Achievement Award),SCIENTIFIC AND TECHNICAL AWARD (Technical Achievement Award),SciTech,0,1
+e4103b64,SCIENTIFIC OR TECHNICAL AWARD (Class I),SCIENTIFIC OR TECHNICAL AWARD (Class I),SciTech,0,1
+691d2696,SCIENTIFIC OR TECHNICAL AWARD (Class II),SCIENTIFIC OR TECHNICAL AWARD (Class II),SciTech,0,1
+f740b718,SCIENTIFIC OR TECHNICAL AWARD (Class III),SCIENTIFIC OR TECHNICAL AWARD (Class III),SciTech,0,1
+f1c38b45,AWARD OF COMMENDATION,AWARD OF COMMENDATION,Special,0,1
+311aed0f,GORDON E. SAWYER AWARD,GORDON E. SAWYER AWARD,Special,0,1
+7bf16e2d,HONORARY AWARD,HONORARY AWARD,Special,0,1
+4bfc5664,IRVING G. THALBERG MEMORIAL AWARD,IRVING G. THALBERG MEMORIAL AWARD,Special,0,1
+3ef4ca41,JEAN HERSHOLT HUMANITARIAN AWARD,JEAN HERSHOLT HUMANITARIAN AWARD,Special,0,1
+1b1f4d0a,JOHN A. BONNER MEDAL OF COMMENDATION,JOHN A. BONNER MEDAL OF COMMENDATION,Special,0,1
+0dfb14f2,MEDAL OF COMMENDATION,MEDAL OF COMMENDATION,Special,0,1
+d85e1bc5,SPECIAL ACHIEVEMENT AWARD,SPECIAL ACHIEVEMENT AWARD,Special,0,1
+84bbe98f,SPECIAL ACHIEVEMENT AWARD (Sound Editing),SPECIAL ACHIEVEMENT AWARD (Sound Editing),Special,0,1
+a916de87,SPECIAL ACHIEVEMENT AWARD (Sound Effects Editing),SPECIAL ACHIEVEMENT AWARD (Sound Effects Editing),Special,0,1
+0a96e64c,SPECIAL ACHIEVEMENT AWARD (Sound Effects),SPECIAL ACHIEVEMENT AWARD (Sound Effects),Special,0,1
+f4c1bf06,SPECIAL ACHIEVEMENT AWARD (Visual Effects),SPECIAL ACHIEVEMENT AWARD (Visual Effects),Special,0,1
+651d590a,SPECIAL AWARD,SPECIAL AWARD,Special,0,1
+348e3043,SPECIAL FOREIGN LANGUAGE FILM AWARD,SPECIAL FOREIGN LANGUAGE FILM AWARD,Special,0,1
+846d88ac,ANIMATED FEATURE FILM,ANIMATED FEATURE FILM,Title,0,0
+7fbbe358,BEST PICTURE,OUTSTANDING PICTURE,Title,1,0
+dd15386a,BEST PICTURE,OUTSTANDING PRODUCTION,Title,1,0
+1192637a,BEST PICTURE,OUTSTANDING MOTION PICTURE,Title,1,0
+c42d6b76,BEST PICTURE,BEST MOTION PICTURE,Title,1,0
+0ef75108,BEST PICTURE,BEST PICTURE,Title,1,0
+fe1b5d81,DOCUMENTARY (Feature),DOCUMENTARY,Title,0,0
+18554262,DOCUMENTARY (Feature),DOCUMENTARY (Feature),Title,0,0
+f65616c3,DOCUMENTARY (Feature),DOCUMENTARY FEATURE FILM,Title,0,0
+559da34c,DOCUMENTARY (Short Subject),DOCUMENTARY (Short Subject),Title,0,0
+87beb0bd,DOCUMENTARY (Short Subject),DOCUMENTARY SHORT FILM,Title,0,0
+09cab0d6,INTERNATIONAL FEATURE FILM,HONORARY FOREIGN LANGUAGE FILM AWARD,Title,0,0
+b404adb2,INTERNATIONAL FEATURE FILM,FOREIGN LANGUAGE FILM,Title,0,0
+5cde3cf5,INTERNATIONAL FEATURE FILM,INTERNATIONAL FEATURE FILM,Title,0,0
+a212fa5d,SHORT FILM (Animated),SHORT SUBJECT (Cartoon),Title,0,0
+7cc712d2,SHORT FILM (Animated),SHORT SUBJECT (Animated),Title,0,0
+a8cd9712,SHORT FILM (Animated),SHORT FILM (Animated),Title,0,0
+29f31058,SHORT FILM (Animated),ANIMATED SHORT FILM,Title,0,0
+346f46c3,SHORT FILM (Live Action),SHORT SUBJECT (Live Action),Title,0,0
+304110d8,SHORT FILM (Live Action),SHORT FILM (Live Action),Title,0,0
+1796bab4,SHORT FILM (Live Action),SHORT FILM (Dramatic Live Action),Title,0,0
+f1062466,SHORT FILM (Live Action),LIVE ACTION SHORT FILM,Title,0,0
+4b50f31c,SHORT SUBJECT (Color),SHORT SUBJECT (Color),Title,0,0
+ea6ccbb1,SHORT SUBJECT (Comedy),SHORT SUBJECT (Comedy),Title,0,0
+7cdfbdcd,SHORT SUBJECT (Novelty),SHORT SUBJECT (Novelty),Title,0,0
+a3d4d65b,SHORT SUBJECT (One-reel),SHORT SUBJECT (One-reel),Title,0,0
+4be39882,SHORT SUBJECT (Two-reel),SHORT SUBJECT (Two-reel),Title,0,0
+04842b06,UNIQUE AND ARTISTIC PICTURE,UNIQUE AND ARTISTIC PICTURE,Title,0,0
+b2f8d736,WRITING (Adapted Screenplay),WRITING (Adaptation),Writing,1,0
+b034a7d8,WRITING (Adapted Screenplay),WRITING,Writing,1,0
+39007149,WRITING (Adapted Screenplay),WRITING (Screenplay),Writing,1,0
+2684f0b2,WRITING (Adapted Screenplay),WRITING (Screenplay--Adapted),Writing,1,0
+dca7ddae,WRITING (Adapted Screenplay),WRITING (Screenplay--based on material from another medium),Writing,1,0
+92217dc5,WRITING (Adapted Screenplay),WRITING (Screenplay Adapted from Other Material),Writing,1,0
+754d5ed2,WRITING (Adapted Screenplay),WRITING (Screenplay Based on Material from Another Medium),Writing,1,0
+14ec91e0,WRITING (Adapted Screenplay),WRITING (Screenplay Based on Material Previously Produced or Published),Writing,1,0
+f46cdf7b,WRITING (Adapted Screenplay),WRITING (Adapted Screenplay),Writing,1,0
+eacd9ecf,WRITING (Original Screenplay),WRITING (Original Screenplay),Writing,1,0
+2a05fff9,WRITING (Original Screenplay),WRITING (Story and Screenplay),Writing,1,0
+40c60346,WRITING (Original Screenplay),WRITING (Screenplay--Original),Writing,1,0
+52ead2dd,WRITING (Original Screenplay),WRITING (Story and Screenplay--written directly for the screen),Writing,1,0
+f4483e85,WRITING (Original Screenplay),WRITING (Story and Screenplay--based on material not previously published or produced),Writing,1,0
+87e14108,WRITING (Original Screenplay),WRITING (Story and Screenplay--based on factual material or material not previously published or produced),Writing,1,0
+27a55842,WRITING (Original Screenplay),WRITING (Screenplay Written Directly for the Screen--based on factual material or on story material not previously published or produced),Writing,1,0
+79199f8c,WRITING (Original Screenplay),WRITING (Screenplay Written Directly for the Screen),Writing,1,0
+df6a8d26,WRITING (Original Story),WRITING (Original Story),Writing,0,0
+bae7e840,WRITING (Original Story),WRITING (Original Motion Picture Story),Writing,0,0
+cf1d43e8,WRITING (Original Story),WRITING (Motion Picture Story),Writing,0,0
+f5490064,WRITING (Title Writing),WRITING (Title Writing),Writing,0,0
